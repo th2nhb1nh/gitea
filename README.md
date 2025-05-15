@@ -28,13 +28,15 @@ This guide explains how to use the existing Gitea Docker setup and how to use it
 - Docker Desktop for Mac installed
 - Git installed
 - Basic understanding of Git and Docker
-- The provided `docker-compose.yml` and `start-gitea.sh` files
 
 ## Starting Gitea
 
 The setup files are already prepared. To start Gitea:
 
 ```bash
+# Clone and navidate to the repository
+git clone https://github.com/th2nhb1nh/gitea.git && cd gitea
+
 # Make the startup script executable if it's not already
 chmod +x start-gitea.sh
 
